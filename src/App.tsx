@@ -1,18 +1,18 @@
 import "./App.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import CategorySection from "./sections/CategorySection";
-import LatestTenders from "./sections/LatestTenders";
+
+import Tenders from "./pages/Tenders";
+import Home from "./pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <div className="">
-        <Navbar />
-        <Header />
-        <CategorySection />
-        <LatestTenders />
-        <h1>scss</h1>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tenders" element={<Tenders />} />
+        </Routes>
+      </Router>
     </>
   );
 }
