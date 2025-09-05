@@ -15,3 +15,11 @@
 .bg-secondary {
   background-color: var(--secondary-color, #1d1f20);
 }
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
