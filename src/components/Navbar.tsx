@@ -7,8 +7,8 @@ function Navbar() {
           <h2 className="text-lg text-white">Home</h2>
             <a href="/" className="text-white text-3xl font-bold">
                 TenderX
-            </a>  
-            <h2 className="text-lg text-white">Tenders</h2>
+            </a>
+            <a href="/tenders" className="text-lg text-white">Tenders</a>
        </div>
         </nav>
   )
