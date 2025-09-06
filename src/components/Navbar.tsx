@@ -8,7 +8,7 @@ function Navbar() {
             <a href="/" className="text-white text-3xl font-bold">
                 TenderX
             </a>
-            <a href="/tenders" className="text-lg text-white">Tenders</a>
+            <a href="/tender" className="text-lg text-white">Tenders</a>
        </div>
         </nav>
   )
