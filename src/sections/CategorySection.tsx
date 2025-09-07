@@ -35,6 +35,8 @@ function CategorySection() {
                 { name: "Category 14", tenders: 15 },
                 { name: "Category 15", tenders: 13 },
                 { name: "Category 16", tenders: 8 },
+                { name: "Category 17", tenders: 10 },
+                { name: "Category 18", tenders: 5 },
               ].map((category, index) => (
                 <div
                   key={index}
