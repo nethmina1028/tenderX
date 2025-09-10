@@ -35,7 +35,7 @@ public class User {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
     
-    // Constructors
+   
     public User() {}
     
     public User(String username, String email, String password) {
@@ -44,7 +44,7 @@ public class User {
         this.password = password;
     }
     
-    // Getters and Setters
+   
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     
@@ -63,7 +63,7 @@ public class User {
     public LocalDateTime getUpdatedAt() { return updatedAt; }
     public void setUpdatedAt(LocalDateTime updatedAt) { this.updatedAt = updatedAt; }
     
-    // Pre-persist and pre-update methods
+  
     @PrePersist
     protected void onCreate() {
         createdAt = LocalDateTime.now();
