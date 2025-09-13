@@ -41,7 +41,7 @@ function LatestTenders() {
             className="bg-gray-200 p-4 rounded-md md:mx-20 mt-4"
           >
             <div className="flex flex-col">
-              <h1 className="text-blue-500">{tender.id}</h1>
+              <h1 className="text-gray-600 font-semibold">{tender.id}</h1>
 
               <div className="flex gap-4 md:items-center mt-2 flex-col md:flex-row items-start">
           <div className="flex gap-4 md:items-center flex-1 flex-col md:flex-row items-start">
